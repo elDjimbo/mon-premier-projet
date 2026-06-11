@@ -1,6 +1,8 @@
 function direBonjour() {
   alert("Bravo, ton JavaScript fonctionne !");
 }
-function direAuRevoir() {
-  alert("Adios muchachos !");
+
+function changerMessage() {
+  document.getElementById("message").innerText =
+    "Je viens de modifier la page avec JavaScript 🚀";
 }
